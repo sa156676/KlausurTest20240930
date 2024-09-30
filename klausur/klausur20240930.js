@@ -9,7 +9,17 @@ console.log("Aufgabe 1")
 // Es soll das Volumen eines Würfels in Quadratzentimeter (cm3) ausgegeben werden. Arbeiten Sie mit einem Objekt und sprechenden Eigenschaften.
 // Geben Sie das Volumen in einem Antwortsatz auf der Konsole aus.
 
+class Würfel{
+    constructor(){
+        this.Seitenlänge 
+    }
+}
 
+let würfel = new Würfel ()
+würfel.Seitenlänge = 8 
+let Volumen = 8*8*8 
+
+console.log('das volumen beträgt ' + Volumen + ' cm3.')
 
 
 // 1b 
@@ -32,6 +42,15 @@ console.log("Aufgabe 2")
 
 // 2a)
 // Definieren Sie die class
+
+class Zeugnis{
+    constructor(){
+        this.Deutsch
+        this.Mathe
+        this.Englisch
+        
+    }
+}
 
 
 
